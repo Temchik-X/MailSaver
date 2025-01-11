@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:MailSaver.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:MailSaver.Views"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="MailSaver.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="MailSaver">
+	<StackPanel Margin="20">
+		<Button Content="Minimize to Tray" IsEnabled="true" Click="MinimizeToTray" x:Name="Minimize"/>
+		<RadioButton GroupName="First Group"
+              Content="POP3" x:Name="pop"/>
+		<RadioButton GroupName="First Group"
+				  Content="IMAP" x:Name="imap"/>
+		<Button Content="Press Me!" IsEnabled="true" Click="ClickHandler" x:Name="button"/>
+		<TextBlock Margin="0 10" x:Name="message">Ready...</TextBlock>
+	</StackPanel>
+	
+</Window>

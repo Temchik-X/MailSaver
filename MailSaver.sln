@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailSaver", "MailSaver\MailSaver.csproj", "{24833A32-BEEF-4B73-979E-BF3DBB3C11BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailSaver.Desktop", "MailSaver.Desktop\MailSaver.Desktop.csproj", "{165EA3FA-0623-4753-87CD-DA6F3DC9C940}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24833A32-BEEF-4B73-979E-BF3DBB3C11BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24833A32-BEEF-4B73-979E-BF3DBB3C11BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24833A32-BEEF-4B73-979E-BF3DBB3C11BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24833A32-BEEF-4B73-979E-BF3DBB3C11BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{165EA3FA-0623-4753-87CD-DA6F3DC9C940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{165EA3FA-0623-4753-87CD-DA6F3DC9C940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{165EA3FA-0623-4753-87CD-DA6F3DC9C940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{165EA3FA-0623-4753-87CD-DA6F3DC9C940}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B2C25BD-305C-480A-96DC-4CD1327718A3}
+	EndGlobalSection
+EndGlobal
